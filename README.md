@@ -4,7 +4,7 @@
 In 3D medical image segmentation, CNNs often process slices independently, sometimes classifying non-adjacent slices as tumorous while leaving gaps (one or more slices) that are likely false negatives.
 This script provides a post-processing method to interpolate missing slices based on adjacent or neighboring masks, improving segmentation continuity and reducing false negatives.
 
-## **Usage**
+## **Usage of `binaryMaskInterpolation.ipynb`**
 1. Load two 2D binary masks from images (PNGs, JPEGs, etc.).
 2. Apply the `interp_mask` function to generate an interpolated mask.
 3. Evaluate the interpolated mask visually to verify its accuracy.
