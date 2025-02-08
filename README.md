@@ -2,7 +2,7 @@
 
 ## **Overview**
 In 3D medical image segmentation, CNNs often process slices independently, sometimes classifying non-adjacent slices as tumorous while leaving gaps (one or more slices) that are likely false negatives.
-`binaryMaskInterpolation` notebook provides a post-processing method to interpolate missing slices based on adjacent or neighboring masks, improving segmentation continuity and reducing false negatives.
+`binaryMaskInterpolation` notebook provides a post-processing method to interpolate missing slices based on adjacent or neighboring masks, improving segmentation continuity and reducing false negatives. It was used in [this project](https://github.com/innavoig23/Automatic-Prostate-Cancer-Segmentation-with-CNN-Deep-Learning).
 
 ## **Usage**
 1. Load two 2D binary masks from images (PNGs, JPEGs, etc.).
