@@ -16,9 +16,13 @@ The `interp_mask` function can be easily integrated into your own segmentation p
 Below are sample outputs from the provided notebook.
 In this example, the CNN identified two tumoral slices but left an intermediate slice as non-tumoral. However, when compared to the ground truth, this intermediate slice was actually tumoral (a false negative). This post-processing method helps restore continuity in such cases.
 
-### **Plot 1**
-![Plot 1](Examples/ex_plot1.png)
+<div align="center">
+    <h3>#1</h3>
+    <img src="Examples/ex_plot1.png" alt="Plot 1" width="1000"/>
+</div>
 
-### **Plot 2**
-![Plot 2](Examples/ex_plot2.png)
+<div align="center">
+    <h3>#2</h3>
+    <img src="Examples/ex_plot2.png" alt="Plot 2" width="400"/>
+</div>
 
