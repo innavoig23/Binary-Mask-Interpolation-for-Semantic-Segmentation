@@ -7,7 +7,7 @@ In 3D medical image segmentation, CNNs often process slices independently, somet
 ## **Usage**
 1. Load two 2D binary masks from images (PNGs, JPEGs, etc.).
 2. Apply the `interp_mask` function to generate an interpolated mask.
-3. Evaluate the interpolated mask visually to verify its accuracy.
+3. Evaluate the interpolated mask visually to verify the output.
 
 The `interp_mask` function can be easily integrated into your own segmentation pipeline, adapting it properly.
 
